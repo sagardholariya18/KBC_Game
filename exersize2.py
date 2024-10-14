@@ -25,6 +25,7 @@ for i in range(0,len(qestions)):
   reply = str(input("Enter your answer:"))
   if(reply == qestions[i][5]):
     print(f"Correct answear, you have win Rs.{levels[i]}")
+    
   else:
     print("Wrong answer!")
     break;
